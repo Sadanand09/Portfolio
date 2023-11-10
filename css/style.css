@@ -1,0 +1,176 @@
+body{
+    margin: 0 0 0 280px;
+    padding: 0%;
+    background: rgb(252,119,255);
+    background: linear-gradient(90deg, rgba(252,119,255,1) 0%, rgba(251,173,255,1) 53%, rgba(86,114,255,1) 100%);
+
+}
+a{
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    margin-left: -280px;
+    background-color: rgb(255, 144, 144);
+
+}
+.sidebar-names{
+    font-size: 35px;
+    margin-top: -60px;
+}
+.menu{
+    margin-top: 60px;
+    font-size: 25px;
+    
+}
+.main{
+    padding-top: 150px;
+}
+.profile{
+
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intro{
+    margin-right: 20px;
+    
+}
+.h4-1{
+    text-align: center;
+    margin-top: 100px;
+}
+.h2{
+    font-size: 45px;
+    
+}
+.h4-2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile-pic{
+    height: 400px;
+
+}
+.btn-main{
+    margin-top: 30px;
+}
+                 
+         
+.btn{
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: black;
+    text-decoration: none;
+}
+ 
+.about{
+    margin-top: 500px;
+    text-align: center;
+    margin-bottom: 700px;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px 20px 20px 20px;
+    border-radius: 200px;
+    border: 4px solid gray;
+    padding: 25px;
+}
+.sub-block{
+    border: 2px solid gray;
+    margin-left: 20px;
+    width: 200px;
+    border-radius: 0 25px 0 25px;
+    padding: 10px;
+}
+.h6{
+    font-size: 20px;
+}
+.experience{
+    text-align: center;
+    margin-bottom: 700px;
+}
+.exp-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 4px solid gray;
+    border-radius: 190px;
+    padding: 25px;
+    margin: 20px;
+}
+.exp-sub{
+    border: 2px solid gray;
+    width: 200px;
+    border-radius: 0 25px 0 25px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.project{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 700px;
+
+}
+.logo{
+    height: 200px;
+}
+.prj{
+    border: 4px solid gray;
+    border-radius: 200px;
+    padding: 20px;
+}
+.prj-sup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.prj-sub{
+    font-size: 44px;
+}
+
+.main-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.h1-1{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 4px solid gray;
+    border-radius: 200px;
+    padding: 25px;
+    margin: 25px;
+    margin-bottom: 300px;
+}
+.media{
+    font-size: 20px;
+}
